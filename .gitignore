@@ -1,0 +1,24 @@
+# Секреты и локальное окружение (не коммитить)
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш и артефакты Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
